@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigationBusqueda"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/busqueda" />
+        <item
+            android:id="@+id/navigationConfiguracion"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/configuracion" />
+        <item
+            android:id="@+id/navigationAyuda"
+            android:icon="@drawable/ic_action_help"
+            android:title="@string/ayuda" />
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/configuration_section"
+            android:title="Salir de aplicación">
+            <menu>
+                <item
+                    android:id="@+id/navigationSalir"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="@string/salir" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.ad.miguelpalacios.bluetoothtool.Fragments.FragmentSettings"
+        android:title="TERMINAL"
+        android:summary="CONFIGURAR PANTALLA TERMINAL"
+        android:icon="@drawable/ic_action_dock">
+        <extra
+            android:name="settings"
+            android:value="terminal"/>
+    </header>
+    <header
+        android:fragment="com.ad.miguelpalacios.bluetoothtool.Fragments.FragmentSettings"
+        android:title="GENERAL"
+        android:summary="CONFIGURAR PANTALLA GENERAL"
+        android:icon="@drawable/ic_action_data_usage">
+        <extra
+            android:name="settings"
+            android:value="general"/>
+    </header>
+    <header
+        android:fragment="com.ad.miguelpalacios.bluetoothtool.Fragments.FragmentSettings"
+        android:title="JOYSTICK"
+        android:summary="CONFIGURAR PANTALLA JOYSTICK"
+        android:icon="@drawable/ic_action_gamepad">
+        <extra
+            android:name="settings"
+            android:value="joystick"/>
+    </header>
+</preference-headers>

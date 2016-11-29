@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="category_usuario"
+        android:title="@string/titulo_categoria_usuario">
+        <EditTextPreference
+            android:key="editText_usuario"
+            android:title="@string/titulo_edittext_usuario"
+            android:defaultValue="@string/valor_default_edittext_usuario"
+            android:singleLine="true"
+            android:selectAllOnFocus="true"
+            android:icon="@drawable/ic_action_person"
+            android:summary="@string/summary_usuario"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_color_texto"
+        android:title="@string/titulo_categoria_color_texto">
+        <ListPreference
+            android:key="list_color_texto"
+            android:title="@string/titulo_listpreference_colores"
+            android:defaultValue="@string/valor_default_listpreference_colores"
+            android:entries="@array/pref_colores_entradas"
+            android:entryValues="@array/pref_colores_valores"
+            android:summary="@string/summary_color_texto"
+            android:icon="@drawable/ic_action_view_as_grid"/>
+    </PreferenceCategory>
+</PreferenceScreen>

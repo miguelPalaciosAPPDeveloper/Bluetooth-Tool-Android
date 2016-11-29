@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#2979ff</color>
+    <color name="colorPrimary">#2962ff</color>
+
+    <!--<color name="colorAccent">#ffffffff</color>-->
+    <color name="colorAccent">#ADADAD</color>
+    <color name="colorTransparente">#00000000</color>
+    <color name="text_white">#ffffffff</color>
+    <color name="terminalBackground">#000000</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="yellow_500_75">#c0ffeb3b</color>
+    <color name="red_500_75">#c0f44336</color>
+    <color name="blue_500_75">#c02196f3</color>
+    <color name="green_500_75">#c04caf50</color>
+</resources>

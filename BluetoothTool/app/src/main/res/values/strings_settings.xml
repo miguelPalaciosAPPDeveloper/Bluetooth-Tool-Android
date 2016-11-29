@@ -1,0 +1,71 @@
+<resources>
+    <string-array name="pref_colores_entradas">
+        <item>Blanco</item>
+        <item>Azul</item>
+        <item>Rojo</item>
+        <item>Verde</item>
+    </string-array>
+    <string-array name="pref_colores_valores">
+        <item>Blanco</item>
+        <item>Azul</item>
+        <item>Rojo</item>
+        <item>Verde</item>
+    </string-array>
+
+    <string name="summary_boton">Escribe el dato que se enviara al precionar este boton</string>
+
+    <string name="titulo_categoria_usuario">NOMBRE DE USUARIO</string>
+    <string name="titulo_edittext_usuario">Nombre de usuario</string>
+    <string name="valor_default_edittext_usuario">Usuario</string>
+    <string name="summary_usuario">Escribe un nombre el cual se mostrara cada que envies un dato</string>
+
+    <string name="titulo_categoria_color_texto">COLOR DE TEXTO</string>
+    <string name="titulo_listpreference_colores">Elige un color</string>
+    <string name="valor_default_listpreference_colores">Blanco</string>
+    <string name="summary_color_texto">Elige el color del texto en la terminal</string>
+
+    <string name="titulo_categoria_botones">DATO A ENVIAR</string>
+    <string name="titulo_boton_1">Salida de boton 1</string>
+    <string name="titulo_boton_2">Salida de boton 2</string>
+    <string name="titulo_boton_3">Salida de boton 3</string>
+    <string name="titulo_boton_4">Salida de boton 4</string>
+    <string name="titulo_boton_5">Salida de boton 5</string>
+    <string name="titulo_boton_6">Salida de boton 6</string>
+    <string name="titulo_boton_7">Salida de boton 7</string>
+    <string name="titulo_boton_8">Salida de boton 8</string>
+    <string name="titulo_boton_9">Salida de boton 9</string>
+
+    <string name="titulo_categoria_seekbar">CONFIGURAR SEEKBAR</string>
+    <string name="titulo_edittext_max">Valor maximo de seekBar</string>
+    <string name="titulo_edittext_datoadicional">Dato adicional</string>
+    <string name="summary_seekbar">Indique el maximo valor que puede tener el Slider</string>
+    <string name="summary_edittext_datoadicional">Envia otro dato extra por ejemplo un indicador</string>
+    <string name="titulo_checkbox_enviarinicio">Enviar dato al inicio</string>
+    <string name="summary_checkbox_enviarinicio">Ejemplo b100 por default envia 100b</string>
+
+    <string name="titulo_categoria_joystick">CONFIGURAR JOYSTICK</string>
+    <string name="titulo_edittext_up">Salida Arriba</string>
+    <string name="summary_edittext_up">Configura el dato de salida en posicion Arriba</string>
+    <string name="default_value_up">U</string>
+    <string name="titulo_edittext_right">Salida Derecha</string>
+    <string name="summary_edittext_right">Configura el dato de salida en posicion Derecha</string>
+    <string name="default_value_right">R</string>
+    <string name="titulo_edittext_left">Salida Izquierda</string>
+    <string name="summary_edittext_left">Configura el dato de salida en posicion Izquierda</string>
+    <string name="default_value_left">L</string>
+    <string name="titulo_edittext_down">Salida Abajo</string>
+    <string name="summary_edittext_down">Configura el dato de salida en posicion Abajo</string>
+    <string name="default_value_down">D</string>
+    <string name="titulo_checkbox_multiples_envios">Multiples envios</string>
+    <string name="summary_checkbox_multiples_envios">Reenvia el dato segun la posicion cada 250ms </string>
+
+    <string name="titulo_categoria_botones_joystick">CONFIGURA LA SALIDA DE LOS BOTONES</string>
+    <string name="titulo_boton_y">Salida de boton Y</string>
+    <string name="default_value_y">Y</string>
+    <string name="titulo_boton_x">Salida de boton X</string>
+    <string name="default_value_x">X</string>
+    <string name="titulo_boton_b">Salida de boton B</string>
+    <string name="default_value_b">B</string>
+    <string name="titulo_boton_a">Salida de boton A</string>
+    <string name="default_value_a">A</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/drawable_dialog">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text=""
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/textViewTitulo"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_action_previous_item"
+            android:background="@color/colorTransparente"
+            android:id="@+id/imageButtonAtras" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:id="@+id/imageViewVista"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ayuda_busqueda_1"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_action_next_item"
+            android:background="@color/colorTransparente"
+            android:id="@+id/imageButtonAdelante" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text=""
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:id="@+id/textViewDescripcion"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ayuda_button_cerrar"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:id="@+id/buttonCerrar"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
